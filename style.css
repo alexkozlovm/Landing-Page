@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header, footer {
     background-color: #1F2937;
 }
@@ -37,6 +42,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 48px;
+    padding: 10px;
 }
 #nav-title {
     display: flex;
