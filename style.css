@@ -23,7 +23,8 @@ button, #action-section {
     background-color: #3882F6;
 }
 h2 {
-    
+    font-size: 2.5rem;
+    margin-top: -40px;
     font-weight: extra-bold;
     color: #1F2937;
 }
@@ -68,4 +69,30 @@ button {
     padding: 0.4rem 1.4rem;
     font-size: 1.5rem;
     border-radius: 9px;
+}
+#card-section {
+    text-align:center;
+}
+#card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 548px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+    
+}
+.card {
+    width: 200px;
+    height: 200px;
+    
+}
+.card > img {
+    width: 200px;
+    height: 200px;
+    border: #3882F6 solid 3px;
+    border-radius: 22px;
+}
+.card > p {
+    color: #1F2937; 
 }
