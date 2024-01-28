@@ -10,6 +10,7 @@ h1 {
     font-size: 48px ;
     font-weight: extra-bold;
     color: #F9FAF8;
+    
 }
 p {
     font-size: 18px;
@@ -53,4 +54,20 @@ nav {
     display: flex;
     justify-content: left;
     
+}
+#hero-section {
+    margin: 78px 48px; 
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+}
+#main-hero {
+    width: 400px;
+}
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5%;
+    border: #F9FAF8 solid 1px;
+    padding: 3px 20px;
 }
