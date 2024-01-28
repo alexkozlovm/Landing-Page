@@ -69,6 +69,7 @@ button {
     padding: 0.4rem 1.4rem;
     font-size: 1.5rem;
     border-radius: 9px;
+    margin-top: 5px;
 }
 #card-section {
     text-align:center;
@@ -95,4 +96,20 @@ button {
 }
 .card > p {
     color: #1F2937; 
+}
+#quote-section > blockquote > p {
+    font-size: 4.5rem;
+    font-weight: 100;
+    font-style: italic;
+    color: #596577;
+    margin: 10px 10px;
+}
+blockquote {
+    padding: 100px 200px;
+}
+cite {
+    float: right;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-top: -20px;
 }
