@@ -35,7 +35,15 @@ a {
 }
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-title {
+    display: flex;
+    align-items: center;
 }
 #nav-links {
-
+    display: flex;
+    justify-content: left;
+    
 }
