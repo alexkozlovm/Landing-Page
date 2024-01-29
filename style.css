@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hide;
 }
 header, footer {
     background-color: #1F2937;
@@ -19,7 +20,7 @@ h3 {
     font-size: 2.5rem;
     color: #F9FAF8;
 }
-button, #action-section {
+button {
     background-color: #3882F6;
 }
 h2 {
@@ -112,4 +113,21 @@ cite {
     font-size: 3.5rem;
     font-weight: 500;
     margin-top: -20px;
+}
+#call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    width: 60%;
+    margin: 50px auto;
+    border: #3882F6 solid 1px;
+    border-radius: 17px ;
+    padding: 36px 0;
+    justify-content: space-around;
+}
+#call-to-action-text > h4 {
+    font-size: 2.5rem;
+    color: #E5E7EB
+}
+#action-button {
+    margin-top: 10px;
 }
